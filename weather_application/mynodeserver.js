@@ -3,7 +3,7 @@ const axios = require('axios');
 
 const app = express();
 const port = 8080;
-
+//My name is obedjohn
 app.get('/temperature/:location_code', async function(request, response) {
     const varlocation = request.params.location_code;
     try {
